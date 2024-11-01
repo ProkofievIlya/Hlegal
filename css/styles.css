@@ -104,6 +104,9 @@ h4 {
     left: 20%;
     border-radius: 5px;
     border-color: grey;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #id2 {
@@ -114,6 +117,9 @@ h4 {
     left: 20%;
     border-radius: 5px;
     border-color: grey;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #id3 {
@@ -124,6 +130,9 @@ h4 {
     left: 20%;
     border-radius: 5px;
     border-color: grey;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #id4 {
@@ -134,6 +143,9 @@ h4 {
     left: 20%;
     border-radius: 5px;
     border-color: grey;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #id5 {
