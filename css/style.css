@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    /* font:inherit; */
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+
+nav ul,
+nav button,
+nav li {
+    display: inline-block;
+}
+
+nav li {
+    margin: 0 25px;
+
+}
+
+nav ul {
+    list-style: none;
+    vertical-align: top;
+    margin: 0 229px 0;
+
+}
+
+section .container {
+    margin-top: 12px;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+}
+
+section .left-side {
+    display: inline-block;
+    padding: 34px 43px;
+    max-width: 57%;
+    vertical-align: top;
+}
+
+section .right-side {
+    display: inline-block;
+    max-width: 43%;
+}
+
+@font-face {
+    font-family: "MyFont1";
+    src: url("../fonts/cerapro.woff") format("woff"),
+        url("../fonts/cerapro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyFont2";
+    src: url("../fonts/ceraproblack.woff") format("woff"),
+        url("../fonts/ceraproblack.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.p__welcome {
+    font-family: "MyFont1", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #3D3D3D;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+}
+
+.p__welcome2 {
+    font-family: "MyFont1", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #727272;
+}
+
+.h2__welcome {
+    font-family: "MyFont2", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    color: #3D3D3D;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div span {
+    font-family: "MyFont2", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    color: #46A358;
+    text-transform: uppercase;
+}
+
+.button__shopnow {
+    margin: 30px 0;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #46A358;
+    text-transform: uppercase;
+    font-family: "MyFont1", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button__login {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #46A358;
+    font-family: "MyFont1", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.button__img {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__button {
+    padding-top: 0;
+    margin-top: 0;
+    float: right;
+
+}
+
+.button__div {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.button__text {
+    margin: 0;
+    padding: 0 5px;
+    float: right;
+}
+
+/* ----------------------------------------------------------------- */
+.li__all {
+    font-family: "MyFont1", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.li__home {
+    font-family: "MyFont1", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.11px;
+    text-align: left;
+    color: #3D3D3D;
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #46A358;
+}
