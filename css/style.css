@@ -97,7 +97,7 @@ section .right-side {
     margin: 0;
 }
 
-div span {
+.left-side span {
     font-family: "MyFont2", sans-serif;
     font-size: 70px;
     font-weight: 900;
