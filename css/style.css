@@ -364,19 +364,40 @@ section .right-side img {
 .col3 {
     display: flex;
     justify-content: space-between;
-    background: #FBFBFB;
+    background: #FFFFFF;
     margin-top: 70px;
-    /* margin: 16px; */
 }
 
 .col1 {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .col__element1,
 .col__element2,
 .col__element3 {
+
+    background: #FFFFFF;
     cursor: pointer;
+}
+
+.col__element1 {
+    margin-right: 25px;
+}
+
+.col__element3 {
+    margin-left: 25px;
+}
+
+.col__element2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.col1 img,
+.col2 img,
+.col3 img {
+    width: 250px;
+    height: 250px;
 }
 
 .element__name {
