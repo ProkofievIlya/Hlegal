@@ -174,6 +174,7 @@ section .right-side img {
     font-weight: 400;
     line-height: 20.11px;
     text-align: left;
+    padding-bottom: 15px;
     color: #3D3D3D;
 }
 
@@ -185,16 +186,14 @@ section .right-side img {
     text-align: left;
     color: #3D3D3D;
     font-weight: bold;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     border-bottom: 3px solid #46A358;
 }
 
 /* ======================================================= */
+
 .categories {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #FFFFFF;
-    padding-top: 30px;
+
     display: flex;
 }
 
@@ -307,18 +306,11 @@ section .right-side img {
 }
 
 .categories__first {
-    flex: 0 0 82%;
+    flex: 0 0 78%;
 }
 
 .super__sale {
     background-image: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
-    /* background-image: url("../images/sale.png") 100% 100% no-repeat; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* flex: 0 0 18%;  */
-
-    /* z-index: 0; */
 }
 
 .super__sale__div1 {
@@ -364,8 +356,8 @@ section .right-side img {
 .col3 {
     display: flex;
     justify-content: space-between;
-    background: #FFFFFF;
     margin-top: 70px;
+    background: #FFFFFF;
 }
 
 .col1 {
@@ -376,7 +368,6 @@ section .right-side img {
 .col__element2,
 .col__element3 {
 
-    background: #FFFFFF;
     cursor: pointer;
 }
 
@@ -398,6 +389,7 @@ section .right-side img {
 .col3 img {
     width: 250px;
     height: 250px;
+    background: rgba(251, 251, 251, 1);
 }
 
 .element__name {
@@ -409,6 +401,7 @@ section .right-side img {
     color: #3D3D3D;
     text-decoration: none;
     margin: 0;
+    background: #FFFFFF;
 }
 
 .element__price {
@@ -420,6 +413,7 @@ section .right-side img {
     color: #46A358;
     font-weight: bold;
     margin-top: 8px;
+    background: #FFFFFF;
 }
 
 .last__buttons__div {
@@ -430,11 +424,8 @@ section .right-side img {
 .last {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #FFFFFF;
     padding-top: 70px;
+    padding-bottom: 82px;
 }
 
 .last__buttons {
@@ -456,6 +447,10 @@ section .right-side img {
     cursor: pointer;
     margin: 5px;
 
+}
+
+.last__buttons:last-child {
+    margin-right: 0;
 }
 
 .last__buttons1 {
