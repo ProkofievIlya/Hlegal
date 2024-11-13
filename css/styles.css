@@ -113,6 +113,24 @@ body {
     line-height: 16px;
     text-align: left;
     color: #A5A5A5;
+    padding-right: 40px;
+}
+
+.input__icon {
+    position: relative;
+}
+
+.input__icon::after {
+    content: '';
+    background-image: url("../images/hide.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
 }
 
 .id4 {
