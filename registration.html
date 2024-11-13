@@ -11,32 +11,46 @@
 </head>
 
 <body>
-    <section class="mydiv1" id="sec1">
+    <section class="container">
         <form>
-            <div class="cross"></div>
-            <div class="text1">Login</div>
-            <div class="line">|</div>
-            <div class="text2">Register</div>
+            <div class="cross">
+                <img class="close" src="./images/close.svg" alt="button">
+            </div>
+            <div class="log__reg">
+                <p class="text1">Login</p>
+                <img class="tire" src="./images/tire.svg" alt="line">
+                <p class="text2">Register</p>
+            </div>
             <div class="text3">
                 <h4>Enter your email and password to register.</h4>
             </div>
-
-            <input type="text" class="id1" name="userName" placeholder="  Username" required>
-            <input type="text" class="id2" name="email" placeholder="  Enter your email address" required>
-            <input type="password" class="id3" name="password1" placeholder="  Password" required>
-            <input type="password" class="id4" name="password2" placeholder="  Confirm Password" required>
-            <button type="submit" name="register" class="id5">Register</button>
-            <div class="text4"><span class="line11"></span>Or register with<span class="line22"></span></div>
+            <div class="text__pass">
+                <input type="text" class="id1" name="userName" placeholder="  Username" required>
+                <input type="text" class="id2" name="email" placeholder="  Enter your email address" required>
+                <input type="password" class="id3" name="password1" placeholder="  Password" required>
+                <input type="password" class="id4" name="password2" placeholder="  Confirm Password" required>
+            </div>
+            <button type="submit" name="register" class="id5">
+                <span class="submit__reg">Register</span>
+            </button>
+            <div class="text4">
+                <img class="lines" src="./images/lineleft.svg" alt="line">
+                <p class="lines__text">Or register with</p>
+                <img class="lines" src="./images/lineright.svg" alt="line">
+            </div>
         </form>
 
         <button type="submit" name="google" class="id6" onclick="window.location.href = 'https://google.com';">
-            <img src="./images/google.png" alt="button" class="id7">
+            <img src="./images/google1.svg" alt="button" class="id7">
             <a href="https://google.com" class="id8">Continue with Google</a>
         </button>
         <button type="submit" name="facebook" class="id9" onclick="window.location.href = 'https://facebook.com';">
-            <img src="./images/facebook.png" alt="button" class="id10">
+            <img src="./images/facebook1.svg" alt="button" class="id10">
             <a href="https://facebook.com" class="id11">Continue with Facebook</a>
         </button>
+        <div class="footer__end">
+            <img src="./images/linefooter.jpg" alt="line" class="line__foo">
+        </div>
     </section>
 </body>
 
