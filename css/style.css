@@ -53,24 +53,8 @@ section .right-side img {
     height: auto;
 }
 
-@font-face {
-    font-family: "MyFont1";
-    src: url("../fonts/cerapro.woff") format("woff"),
-        url("../fonts/cerapro.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "MyFont2";
-    src: url("../fonts/ceraproblack.woff") format("woff"),
-        url("../fonts/ceraproblack.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 .p__welcome {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -82,7 +66,7 @@ section .right-side img {
 }
 
 .p__welcome2 {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -91,7 +75,7 @@ section .right-side img {
 }
 
 .h2__welcome {
-    font-family: "MyFont2", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 70px;
     font-weight: 900;
     line-height: 70px;
@@ -102,7 +86,7 @@ section .right-side img {
 }
 
 .left-side span {
-    font-family: "MyFont2", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 70px;
     font-weight: 900;
     line-height: 70px;
@@ -118,7 +102,7 @@ section .right-side img {
     border-radius: 6px;
     background: #46A358;
     text-transform: uppercase;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -133,7 +117,7 @@ section .right-side img {
     height: 35px;
     border-radius: 6px;
     background: #46A358;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -169,17 +153,18 @@ section .right-side img {
 }
 
 .li__all {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20.11px;
     text-align: left;
     padding-bottom: 15px;
+    cursor: pointer;
     color: #3D3D3D;
 }
 
 .li__home {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20.11px;
@@ -187,6 +172,7 @@ section .right-side img {
     color: #3D3D3D;
     font-weight: bold;
     padding-bottom: 15px;
+    cursor: pointer;
     border-bottom: 3px solid #46A358;
 }
 
@@ -202,7 +188,7 @@ section .right-side img {
     list-style: none;
     padding: 0;
     margin-left: 20px;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
@@ -216,7 +202,7 @@ section .right-side img {
     list-style: none;
     padding: 0;
     margin-left: 30px;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 40px;
@@ -225,7 +211,7 @@ section .right-side img {
 }
 
 .categs__house {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 40px;
@@ -248,7 +234,7 @@ section .right-side img {
     display: flex;
     list-style: none;
     padding: 0;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 16px;
@@ -261,7 +247,7 @@ section .right-side img {
     list-style: none;
     padding: 0;
     align-items: center;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 16px;
@@ -273,7 +259,7 @@ section .right-side img {
 }
 
 .menu__element__all {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 16px;
@@ -306,24 +292,18 @@ section .right-side img {
 }
 
 .categories__first {
-    flex: 0 0 78%;
+    flex: 0 0 75%;
 }
 
 .super__sale {
-    background-image: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
-}
-
-.super__sale__div1 {
-    z-index: 1;
-}
-
-.sale__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
 }
 
 .up__to__sale {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 16px;
@@ -335,8 +315,8 @@ section .right-side img {
 }
 
 .supersale__img {
-    margin-left: 20px;
-    margin-right: 20px;
+    cursor: pointer;
+    max-width: 120%;
 }
 
 .categories__div ul {
@@ -389,11 +369,12 @@ section .right-side img {
 .col3 img {
     width: 250px;
     height: 250px;
+    object-fit: cover;
     background: rgba(251, 251, 251, 1);
 }
 
 .element__name {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
@@ -405,7 +386,7 @@ section .right-side img {
 }
 
 .element__price {
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
@@ -434,7 +415,7 @@ section .right-side img {
     left: 45px;
     gap: 0px;
     opacity: 0px;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 16px;
@@ -460,7 +441,7 @@ section .right-side img {
     border-radius: 4px;
     opacity: 0px;
     background: #46A358;
-    font-family: "MyFont1", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
@@ -468,4 +449,183 @@ section .right-side img {
     color: #FFFFFF;
     cursor: pointer;
     margin: 5px;
+}
+
+.posts__first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.posts__left,
+.posts__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    background: #FBFBFB;
+}
+
+.posts__texts h2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #3D3D3D;
+}
+
+.posts__texts p {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #727272;
+}
+
+.posts__button {
+    width: 140px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #46A358;
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.posts__span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts__arrow {
+    padding-left: 5px;
+}
+
+.our__blog__posts {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.our__blog__posts h1 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #3D3D3D;
+    margin-bottom: 10px;
+}
+
+.our__blog__posts p {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #727272;
+}
+
+.posts__second {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    margin-bottom: 100px;
+}
+
+.posts__element {
+    background: #FBFBFB;
+}
+
+.green__info {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #46A358;
+    margin: 2px;
+}
+
+.posts__element h3 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #3D3D3D;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info__info {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.read__more {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.read__more2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #46A358;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input__div {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+
+.read__more,
+.read__more2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.posts__span2 {
+    margin-bottom: 3px;
+}
+
+.img__post,
+.img__post2 {
+    cursor: pointer;
+}
+
+.element__arrow2 {
+    color: #46A358;
 }
