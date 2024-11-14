@@ -261,4 +261,5 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    overflow: hidden;
 }
