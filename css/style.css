@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container nav ul {
@@ -110,6 +111,11 @@ section .right-side img {
     color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.button__shopnow:hover {
+    background: #3D3D3D;
 }
 
 .button__login {
@@ -125,11 +131,20 @@ section .right-side img {
     color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button__login:hover {
+    background: #3D3D3D;
 }
 
 .menu__button {
     margin-top: 0;
     display: flex;
+
 }
 
 .button__div {
@@ -161,9 +176,12 @@ section .right-side img {
     padding-bottom: 15px;
     cursor: pointer;
     color: #3D3D3D;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+
 }
 
-.li__home {
+.li__all:hover {
     font-family: "CeraPro", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -171,9 +189,34 @@ section .right-side img {
     text-align: left;
     color: #3D3D3D;
     font-weight: bold;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     cursor: pointer;
-    border-bottom: 3px solid #46A358;
+    border-color: #46A358;
+
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.shop {
+    position: absolute;
+    top: 0;
+    left: 480px;
+}
+
+.plantcare {
+    position: absolute;
+    top: 0;
+    left: 560px;
+}
+
+.blogs {
+    position: absolute;
+    top: 0;
+    left: 675px;
 }
 
 /* ======================================================= */
@@ -208,9 +251,10 @@ section .right-side img {
     line-height: 40px;
     color: #3D3D3D;
     cursor: pointer;
+    /* transition: 0.3s; */
 }
 
-.categs__house {
+.categs:hover {
     font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -242,6 +286,55 @@ section .right-side img {
     cursor: pointer;
 }
 
+.menu__element11,
+.menu__element22,
+.menu__element33,
+.menu__element3 {
+
+    border-bottom: 2px solid transparent;
+
+}
+
+.menu__element2 {
+    position: absolute;
+    right: 100px;
+}
+
+.menu__element3 {
+    position: absolute;
+    right: -20px;
+}
+
+.menu__element11 {
+    position: absolute;
+    left: 0;
+}
+
+.menu__element22 {
+    position: absolute;
+    left: 80px;
+}
+
+.menu__element33 {
+    position: absolute;
+    left: 230px;
+}
+
+.menu__element11:hover,
+.menu__element22:hover,
+.menu__element33:hover,
+.menu__element3:hover {
+    font-family: "CeraPro", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #46A358;
+    font-weight: bold;
+    /* padding-bottom: 5px; */
+    border-color: #46A358;
+
+}
+
 .right-menu {
     display: flex;
     list-style: none;
@@ -258,7 +351,7 @@ section .right-side img {
     cursor: pointer;
 }
 
-.menu__element__all {
+/* .menu__element__all {
     font-family: "CeraPro", sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -267,13 +360,14 @@ section .right-side img {
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom: 2px solid #46A358;
-}
+} */
 
 .left-menu li {
     margin-left: 40px;
 }
 
-.left-menu li:first-child {
+.left-menu li:first-child,
+.left-menu li:last-child {
     margin: 0;
 }
 
@@ -292,7 +386,7 @@ section .right-side img {
 }
 
 .categories__first {
-    flex: 0 0 75%;
+    flex: 0 0 86%;
 }
 
 .super__sale {
@@ -344,10 +438,61 @@ section .right-side img {
     margin-top: 25px;
 }
 
+.card__buttons {
+    position: relative;
+    bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.card__buttons img {
+    position: absolute;
+    transform: scale(0.1);
+    transform-origin: top left;
+}
+
+.card11 {
+    top: -30px;
+    left: 65px;
+}
+
+.card12 {
+    top: -30px;
+    left: 110px;
+}
+
+.card13 {
+    top: -30px;
+    left: 155px;
+}
+
+.rectangle {
+    width: 80px;
+    height: 29px;
+    font-family: "CeraPro", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    position: absolute;
+    top: -280px;
+    left: 0;
+}
+
 .col__element1,
 .col__element2,
 .col__element3 {
-
+    border-top: 2px solid transparent;
     cursor: pointer;
 }
 
@@ -364,6 +509,17 @@ section .right-side img {
     margin-right: 25px;
 }
 
+.col__element1:hover,
+.col__element2:hover,
+.col__element3:hover {
+    transition: 0.3s;
+    border-color: #46A358;
+
+    .card__buttons {
+        opacity: 1;
+    }
+}
+
 .col1 img,
 .col2 img,
 .col3 img {
@@ -371,6 +527,7 @@ section .right-side img {
     height: 250px;
     object-fit: cover;
     background: rgba(251, 251, 251, 1);
+    margin-bottom: 35px;
 }
 
 .element__name {
@@ -407,6 +564,7 @@ section .right-side img {
     flex-direction: column;
     padding-top: 70px;
     padding-bottom: 82px;
+    position: relative;
 }
 
 .last__buttons {
@@ -427,14 +585,14 @@ section .right-side img {
     border: 1px solid #E5E5E5;
     cursor: pointer;
     margin: 5px;
-
+    transition: 0.3s;
 }
 
-.last__buttons:last-child {
-    margin-right: 0;
-}
+/* .last__buttons:last-child {
+    margin-right: 0; 
+} */
 
-.last__buttons1 {
+.last__buttons:hover {
     width: 35px;
     height: 35px;
     gap: 0px;
@@ -500,6 +658,11 @@ section .right-side img {
     line-height: 20px;
     cursor: pointer;
     color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.posts__button:hover {
+    background: #3D3D3D;
 
 }
 
@@ -546,6 +709,24 @@ section .right-side img {
 
 .posts__element {
     background: #FBFBFB;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.posts__element:hover {
+    border-color: #46A358;
+
+    .read__more {
+        font-family: "CeraPro", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: left;
+        color: #46A358;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
 }
 
 .green__info {
@@ -591,16 +772,7 @@ section .right-side img {
     margin-bottom: 5px;
 }
 
-.read__more2 {
-    font-family: "CeraPro", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    color: #46A358;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 .input__div {
     margin-left: 15px;
