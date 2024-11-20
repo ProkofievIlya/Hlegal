@@ -26,3 +26,17 @@
     src: local("CeraPro-Black"),
         url("../fonts/CeraPro-Black.woff2") format("woff2");
 }
+
+@font-face {
+    font-family: "EncodeSansExpanded";
+    font-weight: 400;
+    src: local("EncodeSansExpanded-Regular"),
+        url("../fonts/EncodeSansExpanded-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "EncodeSansExpanded";
+    font-weight: 700;
+    src: local("EncodeSansExpanded-Bold"),
+        url("../fonts/EncodeSansExpanded-Bold.ttf") format("truetype");
+}

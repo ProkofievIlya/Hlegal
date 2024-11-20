@@ -30,11 +30,12 @@ button {
     list-style: none;
     padding: 0;
     align-items: center;
+    gap: 0;
 }
 
-.container nav li {
+/* .container nav li {
     margin: 0 25px;
-}
+} */
 
 section .container {
     margin-top: 12px;
@@ -58,6 +59,117 @@ section .right-side img {
     width: 100%;
     height: auto;
 }
+
+/* ================================ */
+
+
+.cont__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    gap: 0;
+    margin: 0;
+
+    .cont2 {
+        margin-top: 30px;
+        left: -40px;
+    }
+
+    .li__four {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .arr1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cont3 {
+
+        left: 180px;
+        top: 0;
+
+        a {
+            width: 192px;
+            transition: 0.2s;
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    .open__li:hover {
+        a {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    >li {
+        position: relative;
+
+        a {
+            width: 178px;
+            display: block;
+            text-align: left;
+            transition: 0.2s;
+            padding: 8px 14px;
+            background: #EDF6EE;
+            text-decoration: none;
+            font-family: "EncodeSansExpanded";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            color: #3D3D3D;
+        }
+    }
+
+    ul {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        transition: 0.3s;
+        opacity: 0;
+        visibility: hidden;
+        max-height: 0;
+        height: 100%;
+        gap: 8px;
+        list-style: none;
+        min-width: 150px;
+        left: 0;
+        padding-top: 14px;
+    }
+
+    li:hover {
+        >a {
+            font-family: "EncodeSansExpanded";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: left;
+            color: #FFFFFF;
+            background: #1A712A;
+
+            .arr1 {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                transform: rotate(180deg);
+            }
+        }
+
+        ul {
+            opacity: 1;
+            visibility: visible;
+            max-height: 300px;
+        }
+    }
+}
+
+/* ================================== */
 
 .p__welcome {
     font-family: "CeraPro", sans-serif;
@@ -209,19 +321,19 @@ section .right-side img {
 .shop {
     position: absolute;
     top: 0;
-    left: 480px;
+    left: 450px;
 }
 
 .plantcare {
     position: absolute;
     top: 0;
-    left: 560px;
+    left: 500px;
 }
 
 .blogs {
     position: absolute;
     top: 0;
-    left: 675px;
+    left: 555px;
 }
 
 /* ======================================================= */
@@ -302,12 +414,12 @@ section .right-side img {
 
 .menu__element2 {
     position: absolute;
-    right: 100px;
+    right: 120px;
 }
 
 .menu__element3 {
     position: absolute;
-    right: -20px;
+    right: 0;
 }
 
 .menu__element11 {
@@ -317,7 +429,7 @@ section .right-side img {
 
 .menu__element22 {
     position: absolute;
-    left: 80px;
+    left: 60px;
 }
 
 .menu__element33 {
