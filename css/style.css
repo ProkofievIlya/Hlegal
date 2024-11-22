@@ -883,3 +883,115 @@ section .right-side img {
 .element__arrow2 {
     color: #46A358;
 }
+
+/* =================================== */
+
+.footer__first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    background: #FBFBFB;
+}
+
+.footer__element {
+    margin: 24px;
+    margin-bottom: 14px;
+}
+
+.footer__name {
+    font-family: "CeraPro", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.footer__text {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.footer__name2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.footer__text2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.footer__input {
+    width: 354px;
+    height: 40px;
+    border-radius: 6px;
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #ACACAC;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #0000000F;
+}
+
+.footer__element2 {
+    width: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+}
+
+.foo__div {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__button {
+    width: 85px;
+    height: 40px;
+    left: 269px;
+    gap: 0px;
+    border-radius: 0px 6px 6px 0px;
+    opacity: 0px;
+    background: #46A358;
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.3s;
+
+}
+
+.footer__button:hover {
+    background: #3D3D3D;
+}
+
+.footer__second {
+    height: 88px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+}
