@@ -995,3 +995,109 @@ section .right-side img {
     height: 88px;
     background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
 }
+
+.footer__second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.second__element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.footer__text {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.second__element a {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    background: #FBFBFB;
+}
+
+.foo__c {
+    /* display: flex; */
+    list-style: none;
+    padding: 0;
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3D3D3D;
+    font-weight: bold;
+
+}
+
+.footer__categs {
+
+    list-style: none;
+    padding: 0;
+    font-family: "CeraPro", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3D3D3D;
+    cursor: pointer;
+
+}
+
+.footer__categs:hover {
+    color: #46A358;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.foo__h2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.end__all {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #3D3D3D;
+}
