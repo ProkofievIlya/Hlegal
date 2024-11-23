@@ -895,8 +895,13 @@ section .right-side img {
 }
 
 .footer__element {
-    margin: 24px;
+    margin: 25px;
     margin-bottom: 14px;
+}
+
+.img__footerline {
+    padding: 0;
+    margin: 0;
 }
 
 .footer__name {
@@ -1066,7 +1071,8 @@ section .right-side img {
 }
 
 .footer__element11 {
-    margin: 24px;
+    margin: 22px;
+    padding: 0;
     margin-bottom: 14px;
     display: flex;
     flex-direction: column;
