@@ -160,6 +160,8 @@ section .image-normal {
     }
 
     li:hover {
+        z-index: 2;
+
         >.cont__ul__b {
             font-family: "EncodeSansExpanded";
             font-size: 16px;
@@ -754,6 +756,8 @@ section .image-normal {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 130px;
+    position: relative;
+    top: -35px;
 }
 
 .posts__left,
@@ -764,6 +768,7 @@ section .image-normal {
     align-items: center;
     text-align: right;
     background: #FBFBFB;
+
 }
 
 .posts__texts h2 {
@@ -774,6 +779,9 @@ section .image-normal {
     text-align: right;
     text-transform: uppercase;
     color: #3D3D3D;
+    position: relative;
+    top: 18px;
+    left: -40px;
 }
 
 .posts__texts p {
@@ -783,9 +791,38 @@ section .image-normal {
     line-height: 24px;
     text-align: right;
     color: #727272;
+    position: relative;
+    top: 10px;
+    left: -45px;
 }
 
-.posts__button {
+.posts__texts2 h2 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    position: relative;
+    top: 18px;
+    left: -33px;
+}
+
+.posts__texts2 p {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #727272;
+    position: relative;
+    top: 10px;
+    left: -39px;
+}
+
+.posts__button,
+.posts__button2 {
     width: 140px;
     height: 40px;
     gap: 0px;
@@ -799,9 +836,18 @@ section .image-normal {
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.3s;
+    position: relative;
+    top: 20px;
+    left: -43px;
 }
 
-.posts__button:hover {
+.posts__button2 {
+    position: relative;
+    left: -35px;
+}
+
+.posts__button:hover,
+.posts__button2:hover {
     background: #3D3D3D;
 
 }
@@ -817,6 +863,9 @@ section .image-normal {
 }
 
 .our__blog__posts {
+    position: relative;
+    top: -87px;
+    left: 10px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -838,19 +887,26 @@ section .image-normal {
     line-height: 24px;
     text-align: center;
     color: #727272;
+    position: relative;
+    left: -11px;
+    top: 2px;
 }
 
 .posts__second {
     display: flex;
     flex-direction: row;
-    gap: 43px;
+    gap: 39px;
     margin-bottom: 100px;
+    position: relative;
+    top: -85px;
+    left: -5px;
 }
 
 .posts__element {
     background: #FBFBFB;
     border: 2px solid transparent;
     transition: 0.3s;
+
 }
 
 .posts__element:hover {
@@ -877,6 +933,8 @@ section .image-normal {
     text-align: left;
     color: #46A358;
     margin: 2px;
+    position: relative;
+    top: -2px;
 }
 
 .posts__element h3 {
@@ -888,6 +946,8 @@ section .image-normal {
     color: #3D3D3D;
     margin-top: 5px;
     margin-bottom: 5px;
+    position: relative;
+    top: -3px;
 }
 
 .info__info {
@@ -899,6 +959,8 @@ section .image-normal {
     color: #727272;
     margin: 0;
     margin-bottom: 8px;
+    position: relative;
+    top: -4px;
 }
 
 .read__more {
@@ -910,6 +972,8 @@ section .image-normal {
     color: #3D3D3D;
     margin-top: 5px;
     margin-bottom: 5px;
+    position: relative;
+    top: -4px;
 }
 
 
@@ -938,6 +1002,13 @@ section .image-normal {
     cursor: pointer;
 }
 
+.img__post3 {
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+
+}
+
 .element__arrow2 {
     color: #46A358;
 }
@@ -950,6 +1021,8 @@ section .image-normal {
     justify-content: space-between;
     align-items: left;
     background: #FBFBFB;
+    position: relative;
+    top: -130px;
 }
 
 .footer__element {
@@ -969,6 +1042,9 @@ section .image-normal {
     line-height: 16px;
     text-align: left;
     color: #3D3D3D;
+    position: relative;
+    top: -6px;
+    left: -2px;
 }
 
 .footer__text {
@@ -978,6 +1054,21 @@ section .image-normal {
     line-height: 22px;
     text-align: left;
     color: #727272;
+    position: relative;
+    top: -11px;
+    left: -2px;
+}
+
+.footer__text3 {
+    font-family: "CeraPro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+    position: relative;
+    top: -11px;
+    left: -2px;
 }
 
 .footer__name2 {
@@ -987,6 +1078,8 @@ section .image-normal {
     line-height: 16px;
     text-align: left;
     color: #3D3D3D;
+    position: relative;
+    top: -9px;
 }
 
 .footer__text2 {
@@ -996,6 +1089,8 @@ section .image-normal {
     line-height: 22px;
     text-align: left;
     color: #727272;
+    position: relative;
+    top: -16px;
 }
 
 .footer__input {
@@ -1029,10 +1124,12 @@ section .image-normal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    top: -14px;
 }
 
 .footer__button {
-    width: 85px;
+    width: 112px;
     height: 40px;
     left: 269px;
     gap: 0px;
@@ -1066,6 +1163,8 @@ section .image-normal {
     align-items: center;
     padding: 20px;
     padding-right: 25px;
+    position: relative;
+    top: -148px;
 }
 
 .second__element {
@@ -1083,6 +1182,9 @@ section .image-normal {
     line-height: 22px;
     text-align: left;
     color: #3D3D3D;
+    position: relative;
+    left: 6px;
+    top: 0;
 }
 
 .second__element a {
@@ -1113,12 +1215,29 @@ section .image-normal {
     gap: 5px;
 }
 
+.se1 {
+    position: relative;
+    left: -75px;
+}
+
+.se2 {
+    position: relative;
+    left: -164px;
+}
+
+.se3 {
+    position: relative;
+    left: -248px;
+}
+
 .footer__third {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: left;
     background: #FBFBFB;
+    position: relative;
+    top: -155px;
 }
 
 .foo__c {
@@ -1161,6 +1280,17 @@ section .image-normal {
     position: relative;
 }
 
+.footer__element111 {
+    margin: 22px;
+    padding: 0;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    left: -5px;
+}
+
 .footer__element22 {
     width: 354px;
     display: flex;
@@ -1196,6 +1326,8 @@ section .image-normal {
     justify-content: left;
     gap: 10px;
     margin-bottom: 20px;
+    position: relative;
+    top: 6px;
 }
 
 .foo__icon {
@@ -1211,11 +1343,6 @@ section .image-normal {
     cursor: pointer;
 }
 
-
-
-
-
-
 .we__icon {
     cursor: pointer;
 }
@@ -1225,6 +1352,8 @@ section .image-normal {
     flex-direction: row;
     justify-content: center;
     margin: 0;
+    position: relative;
+    top: -158px;
 }
 
 .end__all {
@@ -1234,4 +1363,10 @@ section .image-normal {
     line-height: 30px;
     text-align: left;
     color: #3D3D3D;
+}
+
+.we__accept {
+    position: relative;
+    top: 3px;
+
 }
