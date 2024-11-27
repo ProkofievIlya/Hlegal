@@ -1240,6 +1240,7 @@ section .image-normal {
     background: #FBFBFB;
     position: relative;
     top: -155px;
+    padding-bottom: 24px;
 }
 
 .foo__c {
@@ -1355,7 +1356,7 @@ section .image-normal {
     justify-content: center;
     margin: 0;
     position: relative;
-    top: -158px;
+    top: -182px;
 }
 
 .end__all {
@@ -1375,5 +1376,5 @@ section .image-normal {
 
 .lili {
     position: relative;
-    top: -148px;
+    top: -169px;
 }
