@@ -14,40 +14,42 @@
     <header>
         <div class="container">
             <nav>
-                <a>
+                <a href="./index.html" class="grand__link">
                     <img width="150" height="34" src="./images/logos.svg" alt="logo">
                 </a>
                 <ul class="cont__ul">
-                    <li class="home li__all">Home</li>
-                    <li class="shop li__all">Shop</li>
-                    <li class="plantcare li__all">Plant Care
+                    <li class="home li__all"><a href="./index.html" class="cont__ul__a">Home</a></li>
+                    <li class="shop li__all"><a href="#section2" class="cont__ul__a">Shop</a></li>
+                    <li class="plantcare li__all"><a href="#section3" class="cont__ul__a">Plant Care</a>
                         <ul class="cont2">
-                            <li><a href="#">Drainage</a></li>
-                            <li><a href="#">Fungicides</a></li>
-                            <li><a href="#">Fertilizer</a></li>
-                            <li class="open__li"><a class="li__four" href="#">Priming <div class="arr1">></div></a>
+                            <li><a href="#" class="cont__ul__b">Drainage</a></li>
+                            <li><a href="#" class="cont__ul__b">Fungicides</a></li>
+                            <li><a href="#" class="cont__ul__b">Fertilizer</a></li>
+                            <li class="open__li"><a class="cont__ul__b" href="#">Priming <div class="arr1">></div></a>
                                 <ul class="cont3">
-                                    <li><a href="#">Universal</a></li>
-                                    <li><a href="#">For Ficus</a></li>
-                                    <li><a href="#">For Cacti</a></li>
-                                    <li><a href="#">For Citrus</a></li>
-                                    <li><a href="#">For those in bloom</a></li>
-                                    <li><a href="#">For Orchids</a></li>
+                                    <li><a href="#" class="cont__ul__b">Universal</a></li>
+                                    <li><a href="#" class="cont__ul__b">For Ficus</a></li>
+                                    <li><a href="#" class="cont__ul__b">For Cacti</a></li>
+                                    <li><a href="#" class="cont__ul__b">For Citrus</a></li>
+                                    <li><a href="#" class="cont__ul__b">For those in bloom</a></li>
+                                    <li><a href="#" class="cont__ul__b">For Orchids</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class="blogs li__all">Blogs</li>
+                    <li class="blogs li__all"><a href="#section4" class="cont__ul__a">Blogs</a></li>
                 </ul>
 
 
 
                 <div class="menu__button">
                     <button class="button__login">
-                        <span class="button__div">
-                            <img class="button__img" src="./images/logout.svg" alt="stroke">
-                            <span class="button__text">Login</span>
-                        </span>
+                        <a href="./registration.html" class="a__reg">
+                            <span class="button__div">
+                                <img class="button__img" src="./images/logout.svg" alt="stroke">
+                                <span class="button__text">Login</span>
+                            </span>
+                        </a>
                     </button>
                 </div>
             </nav>
@@ -71,7 +73,7 @@
             </div>
         </section>
 
-        <section class="categories container">
+        <section class="categories container" id="section2">
             <div class="categories__div">
                 <div class="categories__first">
                     <p class="grandcategs">Categories</p>
@@ -297,7 +299,7 @@
             </div>
         </section>
 
-        <section class="posts container">
+        <section class="posts container" id="section3">
             <div class="posts__first">
                 <div class="posts__left">
                     <img class="img__post2" src="./images/image14.png" alt="plant">
@@ -326,7 +328,8 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section class="posts container" id="section4">
             <div class="our__blog__posts">
                 <h1>Our Blog Posts</h1>
                 <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
@@ -428,25 +431,32 @@
 
             <div class="footer__second">
                 <div class="second__element">
-                    <a>
+                    <a href="./index.html">
                         <img width="150" height="34" src="./images/logos.svg" alt="logo">
                     </a>
                 </div>
 
                 <div class="second__element">
-                    <img src="./images/location.svg" alt="location">
-                    <p class="footer__text">70 West Buckingham Ave.<br>
-                        Farmingdale, NY 11735</p>
+                    <a
+                        href="https://www.google.com/maps/search/70+West+Buckingham+Ave.Farmingdale,+NY+11735/@40.7317406,-73.4685905,14z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D">
+                        <img src="./images/location.svg" alt="location">
+                        <p class="footer__text">70 West Buckingham Ave.<br>
+                            Farmingdale, NY 11735</p>
+                    </a>
                 </div>
 
                 <div class="second__element">
-                    <img src="./images/mess.svg" alt="email">
-                    <p class="footer__text">contact@greenshop.com</p>
+                    <a href="mailto:contact@greenshop.com">
+                        <img src="./images/mess.svg" alt="email">
+                        <p class="footer__text">contact@greenshop.com</p>
+                    </a>
                 </div>
 
                 <div class="second__element">
-                    <img src="./images/call.svg" alt="phone">
-                    <p class="footer__text">+88 01911 717 490</p>
+                    <a href="tel:+8801911717490">
+                        <img src="./images/call.svg" alt="phone">
+                        <p class="footer__text">+88 01911 717 490</p>
+                    </a>
                 </div>
             </div>
 

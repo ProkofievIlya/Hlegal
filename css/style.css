@@ -33,10 +33,6 @@ button {
     gap: 0;
 }
 
-/* .container nav li {
-    margin: 0 25px;
-} */
-
 section .container {
     margin-top: 12px;
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
@@ -75,9 +71,10 @@ section .right-side img {
     .cont2 {
         margin-top: 30px;
         left: -40px;
+
     }
 
-    .li__four {
+    .cont__ul__b {
         display: flex;
         justify-content: space-between;
     }
@@ -85,11 +82,16 @@ section .right-side img {
     .arr1 {
         margin: 0;
         padding: 0;
+
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+
     }
 
     .cont3 {
 
-        left: 180px;
+        left: 198px;
         top: 0;
 
         a {
@@ -110,8 +112,8 @@ section .right-side img {
     >li {
         position: relative;
 
-        a {
-            width: 178px;
+        .cont__ul__b {
+            width: 195px;
             display: block;
             text-align: left;
             transition: 0.2s;
@@ -144,7 +146,7 @@ section .right-side img {
     }
 
     li:hover {
-        >a {
+        >.cont__ul__b {
             font-family: "EncodeSansExpanded";
             font-size: 16px;
             font-weight: 700;
@@ -158,6 +160,12 @@ section .right-side img {
                 font-weight: 400;
                 line-height: 20px;
                 transform: rotate(180deg);
+                margin: 0;
+                padding: 0;
+
+                position: absolute;
+                right: 10px;
+
             }
         }
 
@@ -282,6 +290,30 @@ section .right-side img {
     margin: 0;
     padding: 0;
     padding-left: 10px;
+}
+
+.a__reg,
+.cont__ul__a {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.a__reg:active,
+.a__reg:focus,
+.a__reg:hover,
+.cont__ul__a:active,
+.cont__ul__a:focus,
+.cont__ul__a:hover {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .li__all {
@@ -1028,8 +1060,31 @@ section .right-side img {
 }
 
 .second__element a {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.second__element a:active,
+.second__element a:focus,
+.second__element a:hover {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .footer__third {
