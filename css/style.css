@@ -105,7 +105,7 @@ section .image-normal {
 
     .cont3 {
 
-        left: 198px;
+        left: 196px;
         top: 0;
 
         a {
@@ -912,7 +912,7 @@ section .image-normal {
 
 .posts__element:hover {
     border-color: #46A358;
-    
+
 
     .read__more {
         font-family: "CeraPro", sans-serif;
