@@ -15,7 +15,7 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     background: #FFFFFF;
-    padding-top: 30px;
+    padding-top: 42px;
 }
 
 .container nav {
@@ -40,21 +40,35 @@ section .container {
 }
 
 section .left-side {
-    padding: 34px 43px;
+    padding: 24px 40px;
     max-width: 57%;
     flex: 1;
-
 }
 
 section .right-side {
-    max-width: 43%;
+    max-width: 45%;
     flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    right: 5px;
+    top: -25px;
 }
 
-section .right-side img {
-    width: 100%;
+section .image-normal {
+    width: 93%;
     height: auto;
 }
+
+.image-small {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    top: 310px;
+    right: 317px;
+}
+
 
 /* ================================ */
 
@@ -188,7 +202,7 @@ section .right-side img {
     text-align: left;
     color: #3D3D3D;
     text-transform: uppercase;
-    margin: 20px 0 0;
+    margin: 16px 3px 0;
 }
 
 .p__welcome2 {
@@ -198,6 +212,8 @@ section .right-side img {
     line-height: 24px;
     text-align: left;
     color: #727272;
+    margin-top: 9px;
+    margin-left: 2px;
 }
 
 .h2__welcome {
@@ -208,7 +224,7 @@ section .right-side img {
     text-align: left;
     color: #3D3D3D;
     text-transform: uppercase;
-    margin: 0;
+    margin: 2px 0;
 }
 
 .left-side span {
@@ -222,7 +238,7 @@ section .right-side img {
 }
 
 .button__shopnow {
-    margin: 30px 0;
+    margin: 28px 0;
     width: 140px;
     height: 40px;
     border-radius: 6px;
@@ -270,6 +286,7 @@ section .right-side img {
     margin-top: 0;
     display: flex;
 
+
 }
 
 .button__div {
@@ -282,14 +299,14 @@ section .right-side img {
 .button__text {
     margin: 0;
     padding: 0;
-    padding-right: 10px;
+    padding-right: 14px;
 
 }
 
 .button__img {
     margin: 0;
     padding: 0;
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .a__reg,
@@ -346,40 +363,41 @@ section .right-side img {
 
 .home {
     position: absolute;
-    top: 0;
-    left: 400px;
+    top: 7px;
+    left: 378px;
 }
 
 .shop {
     position: absolute;
-    top: 0;
-    left: 450px;
+    top: 7px;
+    left: 430px;
 }
 
 .plantcare {
     position: absolute;
-    top: 0;
-    left: 500px;
+    top: 7px;
+    left: 480px;
 }
 
 .blogs {
     position: absolute;
-    top: 0;
-    left: 555px;
+    top: 7px;
+    left: 530px;
 }
 
 /* ======================================================= */
 
 .categories {
-
     display: flex;
+    position: relative;
+    top: -22px;
 }
 
 .grandcategs {
     display: flex;
     list-style: none;
     padding: 0;
-    margin-left: 20px;
+    margin-left: 18px;
     font-family: "CeraPro", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -446,27 +464,32 @@ section .right-side img {
 
 .menu__element2 {
     position: absolute;
-    right: 120px;
+    right: 135px;
+    top: 3px;
 }
 
 .menu__element3 {
     position: absolute;
-    right: 0;
+    right: 25px;
+    top: 3px;
 }
 
 .menu__element11 {
     position: absolute;
     left: 0;
+    top: 3px;
 }
 
 .menu__element22 {
     position: absolute;
-    left: 60px;
+    left: 62px;
+    top: 3px;
 }
 
 .menu__element33 {
     position: absolute;
-    left: 230px;
+    left: 229px;
+    top: 3px;
 }
 
 .menu__element11:hover,
@@ -524,7 +547,7 @@ section .right-side img {
 }
 
 .categories__first {
-    flex: 0 0 86%;
+    flex: 0 0 85%;
 }
 
 .super__sale {
@@ -548,7 +571,8 @@ section .right-side img {
 
 .supersale__img {
     cursor: pointer;
-    max-width: 120%;
+    max-width: 124%;
+    object-fit: cover;
 }
 
 .categories__div ul {
@@ -665,6 +689,7 @@ section .right-side img {
     color: #46A358;
     font-weight: bold;
     margin-top: 8px;
+    margin-bottom: 14px;
     background: #FFFFFF;
 }
 
@@ -676,9 +701,10 @@ section .right-side img {
 .last {
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 82px;
     position: relative;
+    right: -4px;
 }
 
 .last__buttons {
