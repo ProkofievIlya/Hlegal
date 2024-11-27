@@ -906,11 +906,13 @@ section .image-normal {
     background: #FBFBFB;
     border: 2px solid transparent;
     transition: 0.3s;
+    cursor: pointer;
 
 }
 
 .posts__element:hover {
     border-color: #46A358;
+    
 
     .read__more {
         font-family: "CeraPro", sans-serif;
@@ -921,7 +923,6 @@ section .image-normal {
         color: #46A358;
         margin-top: 5px;
         margin-bottom: 5px;
-
     }
 }
 
@@ -983,6 +984,7 @@ section .image-normal {
     margin-top: 5px;
     margin-right: 11px;
     margin-bottom: 11px;
+    cursor: pointer;
 }
 
 .read__more,
