@@ -185,3 +185,32 @@
     transform-origin: bottom left;
 
 }
+
+.union {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.union1 {
+    position: relative;
+    top: -161px;
+}
+
+.union2 {
+    position: relative;
+    left: -152px;
+}
+
+.union h2 {
+    position: absolute;
+    top: 385px;
+    left: 660px;
+    font-family: "Montserrat";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46.32px;
+    text-align: center;
+    color: #FFFFFF;
+}
