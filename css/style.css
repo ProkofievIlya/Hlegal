@@ -161,9 +161,12 @@
     color: #FFFFFF;
 }
 
-.li3:hover .facebook path {
-    fill: #F0145A;
-    transition: fill 0.3s ease;
+.facebook {
+    color: #FFFFFF;
+}
+
+.facebook:hover {
+    color: #F0145A;
     cursor: pointer;
 }
 
@@ -213,4 +216,92 @@
     line-height: 46.32px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.scroll {
+    position: absolute;
+    left: 910px;
+    top: 770px;
+}
+
+.scroll {
+    color: #FFFFFF;
+}
+
+.scroll:hover {
+    color: #F0145A;
+    cursor: pointer;
+}
+
+.lr__block {
+    padding: 0;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -120px;
+    left: -50px;
+}
+
+.left-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-block h2 {
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.other__h2 {
+    font-family: "Montserrat";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46.32px;
+    text-align: right;
+    color: #B3B3BA;
+}
+
+.con__h2 {
+    font-family: "Montserrat";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46.32px;
+    text-align: right;
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right-block {
+    width: 120%;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 43px;
+    text-align: left;
+}
+
+.right-block h2 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.right-block p {
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+
 }
