@@ -161,8 +161,7 @@
     color: #FFFFFF;
 }
 
-
-.facebook:hover {
+.li3:hover .facebook path {
     fill: #F0145A;
     transition: fill 0.3s ease;
     cursor: pointer;
