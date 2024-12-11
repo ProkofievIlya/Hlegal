@@ -1378,3 +1378,168 @@ section .image-normal {
     position: relative;
     top: -169px;
 }
+
+/* ===================================== */
+/* sm ≥576px 
+Medium md ≥768px 
+Large lg ≥992px */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .posts__second,
+    .posts__element {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .posts__element {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        width: 768px;
+
+    }
+
+
+    .image-small,
+    .categories__div,
+    .lili,
+    .img__footerline {
+        display: none;
+    }
+
+
+    .col1,
+    .footer__first {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        background: #FFFFFF;
+    }
+
+    .posts__second,
+    .posts__first,
+    .footer__third {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+    .last__buttons__div,
+    .footer__end {
+        display: flex;
+        justify-content: left;
+    }
+
+
+    .posts__left,
+    .posts__right {
+        margin: 30px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .posts__right {
+        margin-bottom: 50px;
+    }
+
+    .img__post2,
+    .img__post3 {
+        width: 70%;
+
+    }
+
+    .posts__element {
+        width: 300px;
+    }
+
+    .footer__element {
+        margin: 10px;
+        width: 200px;
+    }
+
+    .our__blog__posts,
+    .footer__element2 {
+        margin: 10px;
+        width: 250px;
+    }
+
+    .footer__third {
+        gap: 110px;
+
+    }
+
+    .footer__second {
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-content: center;
+        position: relative;
+    }
+
+    .second__element {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        left: 90px;
+        gap: 10px;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        display: flex;      
+        flex-direction:column;
+        justify-content: left;
+        
+    }
+    .left-side{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+            
+
+    }
+
+        .h2__welcome, .h2__welcome span{
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+        }
+
+        .p__welcome2{
+            margin: 0;
+                padding: 0;
+                font-size: 0.7rem;
+                width: 100%;
+        }
+
+        .right-side{
+            display: none;
+        }
+}
