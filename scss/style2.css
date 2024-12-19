@@ -387,26 +387,48 @@
   background: #FFFFFF;
   position: relative;
   top: -60px;
+  padding-right: 10px;
+}
+
+.wrapper {
+  margin: 60px;
+  max-width: 1320px;
+  max-height: 344px;
+  margin-bottom: 140px;
 }
 
 .team__item {
+  max-width: 1320px;
+  max-height: 450px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
   top: 60px;
   background: #FFFFFF;
-  margin: 60px;
 }
 
 .team__item__next {
+  width: 69%;
   height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  position: relative;
+  top: -345px;
+  left: 400px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   background: #F5F5FA;
-  border-radius: 12px;
+  border-radius: 0 12px 12px 0;
+}
+.team__item__next h2 {
+  margin-right: 30px;
 }
 .team__item__next h4 {
+  margin-top: 10px;
   font-family: "Montserrat";
   font-size: 16px;
   line-height: 19.5px;
@@ -415,6 +437,7 @@
   color: #B3B3BA;
 }
 .team__item__next h5 {
+  margin: 0;
   font-family: "Montserrat";
   font-size: 14px;
   line-height: 22px;
@@ -423,13 +446,32 @@
   color: #B3B3BA;
 }
 
-.team__points {
-  padding: 30px;
+.slick-dots {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 15px;
+  position: relative;
+  top: -50px;
+  left: 0;
+}
+.slick-dots .slick-active button {
+  background-color: #24A3FF;
+  opacity: 1;
+}
+.slick-dots li {
+  list-style: none;
+}
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  background-color: #24A3FF;
+  opacity: 0.5;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 7px;
+  cursor: pointer;
 }
 
 .trust {

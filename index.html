@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hlegal</title>
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./libs/slick/slick.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./scss/style2.css">
 </head>
@@ -145,24 +146,55 @@
         </section>
     </main>
     <section class="team">
-        <div class="team__item">
-            <img width="400" height="344" src="./images/team.png" alt="team">
-            <div class="team__item__next">
-                <div class="services__arrow">
-                    <h3>команда</h3>
-                    <img width="12" height="13" src="./images/arrow.svg" alt="arrow">
+        <div class="wrapper">
+            <div class="team__item">
+                <div class="team__item__img">
+                    <img src="./images/team.png" alt="team">
                 </div>
-                <h2>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у
-                    ситуаціях, коли більшість
-                    безсилі.</h2>
-                <h4>Олександр Олександровський</h4>
-                <h5>Керуючий партнер</h5>
+                <div class="team__item__next">
+                    <div class="services__arrow">
+                        <h3>команда</h3>
+                        <img width="12" height="13" src="./images/arrow.svg" alt="arrow">
+                    </div>
+                    <h2>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у
+                        ситуаціях, коли більшість
+                        безсилі.</h2>
+                    <h4>Олександр Олександровський</h4>
+                    <h5>Керуючий партнер</h5>
+                </div>
             </div>
-        </div>
-        <div class="team__points">
-            <img width="16" height="16" src="./images/point1.svg" alt="point">
-            <img width="16" height="16" src="./images/point2.svg" alt="point">
-            <img width="16" height="16" src="./images/point2.svg" alt="point">
+            <div class="team__item">
+                <div class="team__item__img">
+                    <img width="400" height="344" src="./images/team.png" alt="team">
+                </div>
+                <div class="team__item__next">
+                    <div class="services__arrow">
+                        <h3>команда</h3>
+                        <img width="12" height="13" src="./images/arrow.svg" alt="arrow">
+                    </div>
+                    <h2>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у
+                        ситуаціях, коли більшість
+                        безсилі.</h2>
+                    <h4>Олександр Олександровський</h4>
+                    <h5>Керуючий партнер</h5>
+                </div>
+            </div>
+            <div class="team__item">
+                <div class="team__item__img">
+                    <img width="400" height="344" src="./images/team.png" alt="team">
+                </div>
+                <div class="team__item__next">
+                    <div class="services__arrow">
+                        <h3>команда</h3>
+                        <img width="12" height="13" src="./images/arrow.svg" alt="arrow">
+                    </div>
+                    <h2>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у
+                        ситуаціях, коли більшість
+                        безсилі.</h2>
+                    <h4>Олександр Олександровський</h4>
+                    <h5>Керуючий партнер</h5>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -222,6 +254,40 @@
             </div>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.wrapper').slick({
+                dots: true,
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
     <footer>
         <img class="longline" src="./images/longline.png" alt="line">
         <div class="footer__menu">
