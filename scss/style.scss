@@ -194,9 +194,10 @@ $colorPurple: #323264;
 }
 
 .union {
+  margin: 0;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  // flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -215,17 +216,25 @@ $colorPurple: #323264;
 .union h2 {
   margin-top: 0;
   position: absolute;
-  top: 385px;
-  left: 660px;
+  // top: 385px;
+  // left: 660px;
+  white-space: nowrap;
   @include myFont(38px, 46.32px, 700);
   text-align: center;
   color: $colorWhite;
+
+  top: 42%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .scroll {
   position: absolute;
-  left: 850px;
-  top: 760px;
+  // left: 850px;
+  // top: 760px;
+  top: 80%; 
+  left: 49%;
+  transform: translate(-50%, -50%);
   color: $colorWhite;
 
   &:hover {
