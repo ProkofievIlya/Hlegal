@@ -1068,6 +1068,37 @@ footer {
     font-size: 1.5rem;
     line-height: 2.3rem;
   }
+  .union {
+    height: 95%;
+  }
+  .union1 {
+    position: relative;
+    top: -161px;
+  }
+  .union2 {
+    position: relative;
+    top: 0px;
+  }
+  .union h2 {
+    top: 23%;
+  }
+  .scroll {
+    top: 45%;
+  }
+  .grand__menu {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .grand__block {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+  .flex-column h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    white-space: nowrap;
+  }
 }
 
 /*# sourceMappingURL=style2.css.map */
