@@ -682,31 +682,15 @@ footer {
   color: #24A3FF;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .container nav {
-    margin-top: 0;
     margin-left: 30px;
-    margin-right: 30px;
     flex-direction: column;
     align-items: flex-start;
   }
   .menu__list li {
     font-size: 13px;
     text-align: left;
-  }
-  .union1 {
-    width: 130px;
-    height: auto;
-    position: absolute;
-    top: 200px;
-    left: 100px;
-  }
-  .union2 {
-    width: 150px;
-    height: auto;
-    position: absolute;
-    top: 310px;
-    left: 177px;
   }
   .union h2 {
     font-size: 10px;
@@ -718,86 +702,17 @@ footer {
     width: 30px;
     height: 30px;
   }
-  .grand__block {
+  .team__item {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    font-size: 10px;
+    justify-content: space-between;
     position: relative;
-    top: -900px;
-    left: -230px;
-  }
-  .grand__block img {
-    display: none;
-  }
-  .right-block {
-    width: 80%;
-  }
-  .services__block {
-    width: 40%;
-    position: absolute;
-    top: 1700px;
-    left: -40px;
-    display: none;
-  }
-  .services__block h2 {
-    font-size: 18px;
-  }
-  .services__item {
-    gap: 10px;
-    position: relative;
-    top: -750px;
-    left: -40px;
-  }
-  .services__item1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    gap: 10px;
-  }
-  .services__item1 h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    font-size: 20px;
-  }
-  .services__item1 p {
-    font-size: 16px;
-  }
-  .team {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    position: relative;
-    left: -60px;
-    top: -900px;
-  }
-  .team__points {
-    position: relative;
-    left: -140px;
-  }
-  .team__item__next {
-    position: relative;
-    left: -400px;
-    top: 400px;
+    top: 60px;
   }
   .team__item__next h2 {
-    font-size: 18px;
-  }
-  .team__item {
-    width: 105%;
-  }
-  .team__item__next h4, .team__item__next h5 {
-    position: relative;
-    top: -20px;
-  }
-  .trust {
-    position: relative;
-    top: -550px;
-  }
-  .trust h2 {
-    position: relative;
-    left: -200px;
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
   }
   .grid-container {
     margin: 0;
@@ -806,89 +721,17 @@ footer {
     gap: 0;
     padding: 0;
   }
-  .publications {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin: 0;
-    position: relative;
-    top: -500px;
-  }
-  .services__block {
-    position: relative;
-    top: 0;
-    /* display: none; */
-  }
-  .services__block h2 {
-    font-size: 20px;
-  }
   .cover {
-    margin: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-  }
-  .cover__item {
-    width: 48%;
-  }
-  .logos {
-    margin-top: 20px;
-  }
-  .info h2 {
-    font-size: 28px;
-  }
-  .footer__menu {
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
   }
   .longline {
-    width: 48%;
-  }
-  .footer__item2 {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-  .footer__item p, .footer__item h3, .footer__item h4 {
-    font-size: 14px;
-  }
-  .footer__item2 p, .footer__item2 a {
-    font-size: 14px;
-  }
-  .up__menu, .down__menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .button__item {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-  }
-  .menu__list2 {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .menu__list2 li {
-    text-align: left;
-  }
-  .info__item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .info, footer {
-    width: 70%;
-    position: relative;
-    top: -480px;
-  }
-  .midleline {
-    display: none;
-  }
-  footer {
-    position: relative;
-    left: -110px;
-    padding-left: 5px;
+    width: 83%;
   }
 }
-@media (max-width: 768px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
   .burger-checkbox {
     position: absolute;
     visibility: hidden;
@@ -969,7 +812,7 @@ footer {
     transform: translateX(0);
   }
 }
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .burger-checkbox {
     position: absolute;
     visibility: hidden;
@@ -1080,10 +923,10 @@ footer {
     top: 0px;
   }
   .union h2 {
-    top: 23%;
+    top: 45%;
   }
   .scroll {
-    top: 45%;
+    top: 87%;
   }
   .grand__menu {
     margin-left: 40px;
