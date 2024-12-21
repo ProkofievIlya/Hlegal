@@ -441,6 +441,7 @@ $colorPurple: #323264;
   border-radius: 0 12px 12px 0;
 
   h2{
+    font-size: 2.2rem;
     margin-right: 30px;
   }
 
@@ -520,6 +521,7 @@ $colorPurple: #323264;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100%;
 }
 
@@ -1117,4 +1119,30 @@ footer {
   .burger-checkbox:checked ~ .menu__list2 {
     transform: translateX(0);
   }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+.grid-container{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.longline{
+  width: 87%;
+}
+
+.team__item__next h2{
+  width: 80%;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  
+}
+
 }
