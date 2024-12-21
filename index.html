@@ -7,8 +7,9 @@
     <title>hlegal</title>
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="./scss/style2.css">
+    <link rel="stylesheet" href="./styles/style2.css">
 </head>
 
 <body>
@@ -61,16 +62,48 @@
                 <use href="./images/sprite.svg#scroll" />
             </svg>
         </div>
-        <div class="grand__block">
-            <div class="left-block">
-                <h2 class="left-block-item">Consistent</h2>
-                <h2 class="left-block-item2">Customer oriented</h2>
-                <h2 class="left-block-item2">Innovative</h2>
-                <h2 class="left-block-item2">Business oriented</h2>
-            </div>
+        <div class="grand__block" id="tabs">
+            <ul class="flex-column">
+                <li><a href="#tabs-1" class="tab-link">
+                        <h2 class="h1">Consistent</h2>
+                    </a></li>
+                <li><a href="#tabs-2" class="tab-link">
+                        <h2 class="h1">Customer oriented</h2>
+                    </a></li>
+                <li><a href="#tabs-3" class="tab-link">
+                        <h2 class="h1">Innovative</h2>
+                    </a></li>
+                <li><a href="#tabs-4" class="tab-link">
+                        <h2 class="h1">Business oriented</h2>
+                    </a></li>
+            </ul>
             <img src="./images/rectangle.png" alt="rectangle">
-            <div class="right-block">
-                <h2>We turn the idea of legal services</h2>
+            <div id="tabs-1" class="right-block">
+                <h2>1) We turn the idea of legal services</h2>
+                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a
+                    number of important decisions for the industry. Many of them form the practice of applying the law
+                    of the sea in
+                    Ukraine.</p>
+            </div>
+            <div id="tabs-2" class="right-block">
+                <h2>2) We turn the idea of legal services</h2>
+                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a
+                    number of important decisions for the industry. Many of them form the practice of applying the law
+                    of the sea in
+                    Ukraine.</p>
+            </div>
+            <div id="tabs-3" class="right-block">
+                <h2>3) We turn the idea of legal services</h2>
+                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
+                    and achieve a
+                    number of important decisions for the industry. Many of them form the practice of applying the law
+                    of the sea in
+                    Ukraine.</p>
+            </div>
+            <div id="tabs-4" class="right-block">
+                <h2>4) We turn the idea of legal services</h2>
                 <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects
                     and achieve a
                     number of important decisions for the industry. Many of them form the practice of applying the law
@@ -256,6 +289,9 @@
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="tabs.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./libs/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -287,6 +323,28 @@
             });
         });
     </script>
+
+    <script>
+
+        const tabs = document.querySelectorAll('.tab-link');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function () {
+
+                document.querySelectorAll('.h1').forEach(h => {
+                    h.classList.remove('active');
+                });
+
+                const heading = tab.querySelector('.h1');
+                heading.classList.add('active');
+            });
+        });
+
+        if (tabs.length > 0) {
+            tabs[0].click();
+        }
+    </script>
+
 
     <footer>
         <img class="longline" src="./images/longline.png" alt="line">
