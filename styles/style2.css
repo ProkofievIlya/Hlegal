@@ -877,20 +877,65 @@ footer {
   }
   .logos {
     position: absolute;
-    top: 100px;
-    left: -30px;
+    top: 80px;
+    left: -65px;
+    top: 70px;
+    z-index: 2;
+  }
+  .up__menu {
+    width: 150%;
+    display: flex;
+    gap: 120px;
+    position: relative;
+    top: -45px;
+    left: -35px;
+  }
+  .up__menu .li1, .up__menu .li3, .up__menu .separator {
+    display: none;
+  }
+  .union {
+    height: 350px;
+    margin: 0;
   }
   .union1 {
-    display: none;
+    z-index: 0;
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 8px;
+    left: -100px;
   }
   .union2 {
-    display: none;
+    z-index: 0;
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 240px;
+    left: 73px;
   }
   .union h2 {
-    display: none;
+    top: 33%;
+    left: 50%;
+    white-space: wrap;
   }
   .scroll {
-    display: none;
+    top: 60%;
+  }
+  .p4 {
+    position: relative;
+    top: 20px;
+  }
+  .p3 {
+    position: relative;
+    top: 60px;
+  }
+  .p2 {
+    position: relative;
+    top: 100px;
+  }
+  .p1 {
+    position: relative;
+    top: 140px;
   }
   .team__item__next h2 {
     width: 80%;
@@ -958,6 +1003,9 @@ footer {
   }
   .rectangle__item {
     display: none;
+  }
+  .services {
+    margin-top: 10px;
   }
   .services__item {
     margin: 30px;
@@ -1039,7 +1087,8 @@ footer {
     background: transparent;
     width: 40px;
     height: 26px;
-    top: 20px;
+    top: -75px;
+    left: 28px;
   }
   .burger::before,
   .burger::after {
@@ -1075,7 +1124,7 @@ footer {
   .menu__list2 {
     z-index: 2;
     top: 0;
-    left: -50px;
+    left: -65px;
     position: absolute;
     display: flex;
     flex-direction: column;
